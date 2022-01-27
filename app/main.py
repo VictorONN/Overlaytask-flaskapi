@@ -34,6 +34,7 @@ def _add_attribute(existing, attribute_name, token_id, display_type=None):
     trait = {
         'trait_type': attribute_name,
         'value': '#how to read from the contract'
+        #use Web3.py to reference contract and read position data
     }
     if display_type:
         trait['display_type'] = display_type
